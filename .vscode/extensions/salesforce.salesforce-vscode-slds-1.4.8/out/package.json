@@ -1,0 +1,162 @@
+{
+    "name": "salesforce-vscode-slds",
+    "displayName": "SLDS Validator",
+    "publisher": "salesforce",
+    "description": "Salesforce Lightning Design System",
+    "version": "1.1.0",
+    "aiKey": "7344b284-73e5-420e-b680-73333da3e067",
+    "icon": "images/salesforce_cloud.png",
+    "preview": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/forcedotcom/salesforcedx-vscode-slds"
+    },
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "main": "./out/src",
+    "activationEvents": [
+        "onLanguage:javascript",
+        "onLanguage:html",
+        "onLanguage:css"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "slds.enable",
+                "title": "Enable",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable",
+                "title": "Disable",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.enable:density",
+                "title": "Enable Density Tokens & Classes",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable:density",
+                "title": "Disable Density Tokens & Classes",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.enable:utility",
+                "title": "Enable Utility Classes",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable:utility",
+                "title": "Disable Utility Classes",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.enable:bem",
+                "title": "Enable BEM Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable:bem",
+                "title": "Disable BEM Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.enable:deprecated",
+                "title": "Enable Deprecated Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable:deprecated",
+                "title": "Disable Deprecated Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.enable:invalid",
+                "title": "Enable Invalid Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable:invalid",
+                "title": "Disable Invalid Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.enable:override",
+                "title": "Enable Override Detection",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable:override",
+                "title": "Disable Override Detection",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.enable:designToken",
+                "title": "Enable Design Token Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable:designToken",
+                "title": "Disable Design Token Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.enable:autoSuggest",
+                "title": "Enable Auto-Suggestion",
+                "category": "SLDS"
+            },
+            {
+                "command": "slds.disable:autoSuggest",
+                "title": "Disable Auto-Suggestion",
+                "category": "SLDS"
+            }
+        ],
+        "languages": [
+            {
+                "id": "html",
+                "extensions": [
+                    ".cmp",
+                    ".app"
+                ]
+            }
+        ]
+    },
+    "devDependencies": {
+        "@salesforce/dev-config": "1.5.0",
+        "@types/chai": "^4.2.11",
+        "@types/mocha": "^7.0.0",
+        "@types/node": "^10.12.12",
+        "@types/shelljs": "^0.8.8",
+        "@types/sinon": "^9.0.4",
+        "@types/vscode": "1.40.0",
+        "chai": "^4.2.0",
+        "mocha": "^7.0.0",
+        "nyc": "^15.1.0",
+        "sinon": "^9.0.2",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.2.2",
+        "uri-js": "^4.2.2",
+        "vsce": "^1.71.0",
+        "vscode-test": "^1.4.0"
+    },
+    "extensionDependencies": [
+        "salesforce.salesforcedx-utils-vscode"
+    ],
+    "scripts": {
+        "vscode:package": "vsce package",
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -b",
+        "watch": "tsc -b -w",
+        "lint": "tslint --project tslint.json",
+        "test": "node ./out/test/runTest.js"
+    },
+    "dependencies": {
+        "applicationinsights": "^1.8.2",
+        "vscode-languageclient": "^6.1.3"
+    }
+}

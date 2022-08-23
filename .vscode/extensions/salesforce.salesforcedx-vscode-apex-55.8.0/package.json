@@ -1,0 +1,378 @@
+{
+	"name": "salesforcedx-vscode-apex",
+	"displayName": "Apex",
+	"description": "Provides code-editing features for the Apex programming language",
+	"qna": "https://github.com/forcedotcom/salesforcedx-vscode/issues",
+	"bugs": {
+		"url": "https://github.com/forcedotcom/salesforcedx-vscode/issues"
+	},
+	"repository": {
+		"url": "https://github.com/forcedotcom/salesforcedx-vscode"
+	},
+	"icon": "images/VSCodeApex.png",
+	"galleryBanner": {
+		"color": "#ECECEC",
+		"theme": "light"
+	},
+	"aiKey": "ec3632a4-df47-47a4-98dc-8134cacbaf7e",
+	"version": "55.8.0",
+	"publisher": "salesforce",
+	"license": "BSD-3-Clause",
+	"engines": {
+		"vscode": "^1.49.3"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"dependencies": {
+		"@salesforce/apex-node": "0.10.0",
+		"@salesforce/apex-tmlanguage": "1.4.0",
+		"@salesforce/core": "^2.35.0",
+		"@salesforce/salesforcedx-utils-vscode": "55.8.0",
+		"@salesforce/source-deploy-retrieve": "5.12.2",
+		"expand-home-dir": "0.0.3",
+		"find-java-home": "0.2.0",
+		"path-exists": "3.0.0",
+		"shelljs": "0.8.5",
+		"vscode-extension-telemetry": "0.0.17",
+		"vscode-languageclient": "5.1.1"
+	},
+	"devDependencies": {
+		"@salesforce/salesforcedx-test-utils-vscode": "55.8.0",
+		"@salesforce/ts-sinon": "1.3.21",
+		"@types/chai": "4.3.0",
+		"@types/mkdirp": "0.5.2",
+		"@types/mocha": "^5",
+		"@types/node": "12.0.12",
+		"@types/path-exists": "^1.0.29",
+		"@types/shelljs": "^0.7.8",
+		"@types/sinon": "^2.3.7",
+		"@types/vscode": "1.49.0",
+		"chai": "^4.0.2",
+		"cross-env": "5.2.0",
+		"mocha": "^10",
+		"sinon": "^13.0.1",
+		"typescript": "3.8.3",
+		"vscode-extension-telemetry": "0.0.17"
+	},
+	"scripts": {
+		"vscode:prepublish": "npm prune --production",
+		"vscode:package": "vsce package",
+		"vscode:sha256": "node ../../scripts/generate-sha256.js >> ../../SHA256",
+		"vscode:publish": "node ../../scripts/publish-vsix.js",
+		"compile": "tsc -p ./",
+		"lint": "tslint --project .",
+		"lint:fix": "npm run lint -- --fix",
+		"watch": "tsc -watch -p .",
+		"clean": "shx rm -rf node_modules && cd out && node ../../../scripts/clean-all-but-jar.js && shx rm -rf coverage && shx rm -rf .nyc_output",
+		"test": "npm run test:vscode-integration",
+		"test:vscode-integration": "node ../../scripts/run-vscode-integration-tests-with-top-level-extensions",
+		"test:vscode-insiders-integration": "cross-env CODE_VERSION=insiders npm run test:vscode-integration"
+	},
+	"activationEvents": [
+		"workspaceContains:sfdx-project.json"
+	],
+	"main": "./out/src",
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "test",
+					"title": "%test_view_container_title%",
+					"icon": "media/dep.svg"
+				}
+			]
+		},
+		"views": {
+			"test": [
+				{
+					"id": "sfdx.force.test.view",
+					"name": "%test_view_name%",
+					"when": "sfdx:project_opened"
+				}
+			]
+		},
+		"menus": {
+			"view/title": [
+				{
+					"command": "sfdx.force.test.view.run",
+					"when": "view == sfdx.force.test.view",
+					"group": "navigation"
+				},
+				{
+					"command": "sfdx.force.test.view.refresh",
+					"when": "view == sfdx.force.test.view",
+					"group": "navigation"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "sfdx.force.test.view.showError",
+					"when": "view == sfdx.force.test.view && viewItem =~ /(apexTest|apexTestGroup)_Fail/"
+				},
+				{
+					"command": "sfdx.force.test.view.goToDefinition",
+					"when": "view == sfdx.force.test.view && viewItem =~ /(apexTest|apexTestGroup)(_Pass|_Skip|\\b)/"
+				},
+				{
+					"command": "sfdx.force.test.view.runClassTests",
+					"when": "view == sfdx.force.test.view && viewItem =~ /apexTestGroup/",
+					"group": "inline"
+				},
+				{
+					"command": "sfdx.force.test.view.runSingleTest",
+					"when": "view == sfdx.force.test.view && viewItem =~ /(apexTest)(_.*|\\b)/",
+					"group": "inline"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "sfdx.force.anon.apex.execute.selection",
+					"when": "sfdx:project_opened && editorHasSelection"
+				},
+				{
+					"command": "sfdx.force.anon.apex.execute.document",
+					"when": "sfdx:project_opened && !editorHasSelection"
+				},
+				{
+					"command": "sfdx.force.apex.log.get",
+					"when": "sfdx:project_opened"
+				},
+				{
+					"command": "sfdx.force.apex.test.last.class.run",
+					"when": "sfdx:project_opened && sfdx:has_cached_test_class"
+				},
+				{
+					"command": "sfdx.force.apex.test.class.run",
+					"when": "false"
+				},
+				{
+					"command": "sfdx.force.apex.test.method.run",
+					"when": "false"
+				},
+				{
+					"command": "sfdx.force.apex.test.last.method.run",
+					"when": "sfdx:project_opened && sfdx:has_cached_test_method"
+				},
+				{
+					"command": "sfdx.force.apex.test.run",
+					"when": "sfdx:project_opened"
+				},
+				{
+					"command": "sfdx.force.apex.test.suite.run",
+					"when": "sfdx:project_opened"
+				},
+				{
+					"command": "sfdx.force.apex.test.suite.create",
+					"when": "sfdx:project_opened"
+				},
+				{
+					"command": "sfdx.force.apex.test.suite.add",
+					"when": "sfdx:project_opened"
+				},
+				{
+					"command": "sfdx.force.test.view.runClassTests",
+					"when": "false"
+				},
+				{
+					"command": "sfdx.force.test.view.runSingleTest",
+					"when": "false"
+				},
+				{
+					"command": "sfdx.force.test.view.goToDefinition",
+					"when": "false"
+				},
+				{
+					"command": "sfdx.force.test.view.showError",
+					"when": "false"
+				},
+				{
+					"command": "sfdx.force.test.view.run",
+					"when": "false"
+				},
+				{
+					"command": "sfdx.force.test.view.refresh",
+					"when": "false"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "sfdx.force.anon.apex.execute.document",
+				"title": "%force_anon_apex_execute_document_text%"
+			},
+			{
+				"command": "sfdx.force.anon.apex.execute.selection",
+				"title": "%force_anon_apex_execute_selection_text%"
+			},
+			{
+				"command": "sfdx.force.apex.log.get",
+				"title": "%force_apex_log_get_text%"
+			},
+			{
+				"command": "sfdx.force.apex.test.run",
+				"title": "%force_apex_test_run_text%"
+			},
+			{
+				"command": "sfdx.force.apex.test.suite.run",
+				"title": "%force_apex_test_suite_run_text%"
+			},
+			{
+				"command": "sfdx.force.apex.test.suite.create",
+				"title": "%force_apex_test_suite_create_text%"
+			},
+			{
+				"command": "sfdx.force.apex.test.suite.add",
+				"title": "%force_apex_test_suite_build_text%"
+			},
+			{
+				"command": "sfdx.force.test.view.run",
+				"title": "%run_tests_title%",
+				"icon": {
+					"light": "resources/light/play-button.svg",
+					"dark": "resources/dark/play-button.svg"
+				}
+			},
+			{
+				"command": "sfdx.force.test.view.refresh",
+				"title": "%refresh_test_title%",
+				"icon": {
+					"light": "resources/light/refresh.svg",
+					"dark": "resources/dark/refresh.svg"
+				}
+			},
+			{
+				"command": "sfdx.force.test.view.showError",
+				"title": "%show_error_title%",
+				"icon": {
+					"light": "resources/light/document/notRun.svg",
+					"dark": "resources/dark/document/notRun.svg"
+				}
+			},
+			{
+				"command": "sfdx.force.test.view.goToDefinition",
+				"title": "%go_to_definition_title%",
+				"icon": {
+					"light": "resources/light/document/notRun.svg",
+					"dark": "resources/dark/document/notRun.svg"
+				}
+			},
+			{
+				"command": "sfdx.force.test.view.runClassTests",
+				"title": "%run_tests_title%",
+				"icon": {
+					"light": "resources/light/play-button.svg",
+					"dark": "resources/dark/play-button.svg"
+				}
+			},
+			{
+				"command": "sfdx.force.test.view.runSingleTest",
+				"title": "%run_single_test_title%",
+				"icon": {
+					"light": "resources/light/play-button.svg",
+					"dark": "resources/dark/play-button.svg"
+				}
+			},
+			{
+				"command": "sfdx.force.apex.test.last.class.run",
+				"title": "%force_apex_test_last_class_run_text%"
+			},
+			{
+				"command": "sfdx.force.apex.test.class.run",
+				"title": "%force_apex_test_class_run_text%"
+			},
+			{
+				"command": "sfdx.force.apex.test.method.run",
+				"title": "%force_apex_test_method_run_text%"
+			},
+			{
+				"command": "sfdx.force.apex.test.last.method.run",
+				"title": "%force_apex_test_last_method_run_text%"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "%configuration_title%",
+			"properties": {
+				"salesforcedx-vscode-apex.java.home": {
+					"type": "string",
+					"default": null,
+					"description": "%java_home_description%"
+				},
+				"salesforcedx-vscode-apex.java.memory": {
+					"type": [
+						"integer",
+						"null"
+					],
+					"minimum": 0,
+					"default": null,
+					"description": "%java_memory_description%"
+				},
+				"salesforcedx-vscode-apex.enable-semantic-errors": {
+					"type": "boolean",
+					"default": false,
+					"description": "%apex_semantic_errors_description%"
+				},
+				"salesforcedx-vscode-apex.advanced.enable-completion-statistics": {
+					"type": "boolean",
+					"default": false,
+					"description": "%apex_code_completion_stats_description%"
+				}
+			}
+		},
+		"languages": [
+			{
+				"id": "apex",
+				"aliases": [
+					"Apex",
+					"apex"
+				],
+				"extensions": [
+					".cls",
+					".trigger",
+					".soql"
+				],
+				"configuration": "./syntaxes/apex.configuration.json"
+			},
+			{
+				"id": "apex-anon",
+				"aliases": [
+					"Anonymous Apex"
+				],
+				"extensions": [
+					".apex"
+				],
+				"configuration": "./syntaxes/apex.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "apex",
+				"scopeName": "source.apex",
+				"path": "./node_modules/@salesforce/apex-tmlanguage/grammars/apex.tmLanguage"
+			},
+			{
+				"language": "apex-anon",
+				"scopeName": "source.apex",
+				"path": "./node_modules/@salesforce/apex-tmlanguage/grammars/apex.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "apex",
+				"path": "./snippets/apex.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "fb928002-4623-4d99-b7e0-4a1d473e77a3",
+		"publisherId": "656b996d-3c70-47b4-937e-e77c013faeea",
+		"publisherDisplayName": "Salesforce",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1660710226870
+	}
+}

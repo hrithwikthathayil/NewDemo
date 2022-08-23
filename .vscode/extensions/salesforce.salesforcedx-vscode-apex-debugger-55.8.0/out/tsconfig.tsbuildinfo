@@ -1,0 +1,3478 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7",
+        "signature": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "../../../node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "../../../node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "../../../node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091",
+        "signature": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091"
+      },
+      "../../../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed",
+        "signature": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
+        "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8",
+        "signature": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122",
+        "signature": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
+        "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca",
+        "signature": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "../../../node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408",
+        "signature": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408"
+      },
+      "../../../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "../../../node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "../../../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "../../../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "../../../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "2958de3d25bfb0b5cdace0244e11c9637e5988920b99024db705a720ce6348e7",
+        "signature": "2958de3d25bfb0b5cdace0244e11c9637e5988920b99024db705a720ce6348e7"
+      },
+      "../../../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "85085a0783532dc04b66894748dc4a49983b2fbccb0679b81356947021d7a215",
+        "signature": "85085a0783532dc04b66894748dc4a49983b2fbccb0679b81356947021d7a215"
+      },
+      "../../../node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "5494f46d3a8a0329d13ddc37f8759d5288760febb51c92336608d1c06bb18d29",
+        "signature": "5494f46d3a8a0329d13ddc37f8759d5288760febb51c92336608d1c06bb18d29"
+      },
+      "../../../node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "../../../node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "../../../node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255",
+        "signature": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255"
+      },
+      "../../../node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "1377923021927244ea19433873b997ad8585533b0a56d5de29cda497f7842756",
+        "signature": "1377923021927244ea19433873b997ad8585533b0a56d5de29cda497f7842756"
+      },
+      "../../salesforcedx-apex-debugger/out/src/constants.d.ts": {
+        "version": "c6b228e2893502d79e2a2e7ee8740e640542492836432acab75b76e329d1630d",
+        "signature": "c6b228e2893502d79e2a2e7ee8740e640542492836432acab75b76e329d1630d"
+      },
+      "../node_modules/@types/node/globals.d.ts": {
+        "version": "bd8e096b13681e3aa148c869e7f3bb397145bfde49b53f6dd4b297ce131ea077",
+        "signature": "bd8e096b13681e3aa148c869e7f3bb397145bfde49b53f6dd4b297ce131ea077"
+      },
+      "../node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f"
+      },
+      "../node_modules/@types/node/async_hooks.d.ts": {
+        "version": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561",
+        "signature": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561"
+      },
+      "../node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
+      },
+      "../../../node_modules/@types/events/index.d.ts": {
+        "version": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935",
+        "signature": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935"
+      },
+      "../node_modules/@types/node/child_process.d.ts": {
+        "version": "df18c49bd3f5c6c9497a9986bb6dd6a40ae7195a3f0265a7b558736fb7333356",
+        "signature": "df18c49bd3f5c6c9497a9986bb6dd6a40ae7195a3f0265a7b558736fb7333356"
+      },
+      "../node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a"
+      },
+      "../node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "../node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598"
+      },
+      "../node_modules/@types/node/crypto.d.ts": {
+        "version": "325154b5b9b94af94b9c0cea4a051496693e6253be1abb2b6399b68331d70e46",
+        "signature": "325154b5b9b94af94b9c0cea4a051496693e6253be1abb2b6399b68331d70e46"
+      },
+      "../node_modules/@types/node/dgram.d.ts": {
+        "version": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a",
+        "signature": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a"
+      },
+      "../node_modules/@types/node/dns.d.ts": {
+        "version": "05e732266b5a36789fd9eb846b1f45fec1b6e318b740e3f20fc22fd95f9ebf31",
+        "signature": "05e732266b5a36789fd9eb846b1f45fec1b6e318b740e3f20fc22fd95f9ebf31"
+      },
+      "../node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa"
+      },
+      "../node_modules/@types/node/events.d.ts": {
+        "version": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c",
+        "signature": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c"
+      },
+      "../node_modules/@types/node/fs.d.ts": {
+        "version": "92bad5d23e0d21fb6ad4354b2ca8bfe683c1d57e32daca6a88c15fff2ecb9fcd",
+        "signature": "92bad5d23e0d21fb6ad4354b2ca8bfe683c1d57e32daca6a88c15fff2ecb9fcd"
+      },
+      "../node_modules/@types/node/http.d.ts": {
+        "version": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8",
+        "signature": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8"
+      },
+      "../node_modules/@types/node/http2.d.ts": {
+        "version": "ef535a3849d5826d70b2b341420e239e180d2d9d64045e84683b6a52a82845b5",
+        "signature": "ef535a3849d5826d70b2b341420e239e180d2d9d64045e84683b6a52a82845b5"
+      },
+      "../node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6"
+      },
+      "../node_modules/@types/node/inspector.d.ts": {
+        "version": "8cfa78f4c052a93ac1e7accb0a78ce331dbd14f277ee0e193279ec31ce7efb25",
+        "signature": "8cfa78f4c052a93ac1e7accb0a78ce331dbd14f277ee0e193279ec31ce7efb25"
+      },
+      "../node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "../node_modules/@types/node/net.d.ts": {
+        "version": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "signature": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50"
+      },
+      "../node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486"
+      },
+      "../node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36"
+      },
+      "../node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f"
+      },
+      "../node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "../node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "../node_modules/@types/node/querystring.d.ts": {
+        "version": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e",
+        "signature": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e"
+      },
+      "../node_modules/@types/node/readline.d.ts": {
+        "version": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "signature": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c"
+      },
+      "../node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157"
+      },
+      "../node_modules/@types/node/stream.d.ts": {
+        "version": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65",
+        "signature": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65"
+      },
+      "../node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948"
+      },
+      "../node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "../node_modules/@types/node/tls.d.ts": {
+        "version": "af4eb6cfde4501c70e7cfb453370eb671ae51e20a3e591ddff71cdd2c190114e",
+        "signature": "af4eb6cfde4501c70e7cfb453370eb671ae51e20a3e591ddff71cdd2c190114e"
+      },
+      "../node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "../node_modules/@types/node/tty.d.ts": {
+        "version": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4",
+        "signature": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4"
+      },
+      "../node_modules/@types/node/url.d.ts": {
+        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7"
+      },
+      "../node_modules/@types/node/util.d.ts": {
+        "version": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12",
+        "signature": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12"
+      },
+      "../node_modules/@types/node/v8.d.ts": {
+        "version": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033",
+        "signature": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033"
+      },
+      "../node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9"
+      },
+      "../node_modules/@types/node/worker_threads.d.ts": {
+        "version": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402",
+        "signature": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402"
+      },
+      "../node_modules/@types/node/zlib.d.ts": {
+        "version": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "signature": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9"
+      },
+      "../node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "../node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "../node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1",
+        "signature": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1"
+      },
+      "../node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "../../salesforcedx-utils-vscode/out/src/requestService/baseCommand.d.ts": {
+        "version": "75322e34cc402a1d2c76112fdc86cbac8ea56d60926788827d6bdd7d4f325e54",
+        "signature": "75322e34cc402a1d2c76112fdc86cbac8ea56d60926788827d6bdd7d4f325e54"
+      },
+      "../../salesforcedx-utils-vscode/node_modules/request-light/lib/main.d.ts": {
+        "version": "e6e4e284a2acd2559a1baedcd80030818dab5a7a0ec790862e58621a2a84095f",
+        "signature": "e6e4e284a2acd2559a1baedcd80030818dab5a7a0ec790862e58621a2a84095f"
+      },
+      "../../salesforcedx-utils-vscode/out/src/requestService/requestService.d.ts": {
+        "version": "6df7b5ef64ef548589bf10f2b8dee397f14d20e45515f2869de8a3d495f7e1f1",
+        "signature": "6df7b5ef64ef548589bf10f2b8dee397f14d20e45515f2869de8a3d495f7e1f1"
+      },
+      "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts": {
+        "version": "85d0dd1d6c55f36052dcf4549ce742b56512fe397c7cb982faae81f6589c072b",
+        "signature": "85d0dd1d6c55f36052dcf4549ce742b56512fe397c7cb982faae81f6589c072b"
+      },
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts": {
+        "version": "23c5fc0bad6e6cdbcdb984b1ab041f98fed79a897b918df9c9b85d3b0aebbe9a",
+        "signature": "23c5fc0bad6e6cdbcdb984b1ab041f98fed79a897b918df9c9b85d3b0aebbe9a"
+      },
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/protocol.d.ts": {
+        "version": "ba046ef1c9ea9359f5b33c63126e5de23d8ffff2e3c175d2283891717d85f537",
+        "signature": "ba046ef1c9ea9359f5b33c63126e5de23d8ffff2e3c175d2283891717d85f537"
+      },
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/messages.d.ts": {
+        "version": "6397cf036e7a5891842bc8650155eef10830b24dc2989ee2da75da1ec01189bd",
+        "signature": "6397cf036e7a5891842bc8650155eef10830b24dc2989ee2da75da1ec01189bd"
+      },
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts": {
+        "version": "fcba4d6f19fe88040f19feb74c2b1365c89853c6d9d6d1cb4d66367300df4f45",
+        "signature": "fcba4d6f19fe88040f19feb74c2b1365c89853c6d9d6d1cb4d66367300df4f45"
+      },
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/loggingDebugSession.d.ts": {
+        "version": "3fb054e4b3d054c1f27b7e37ba67f5f53d383dec81380a97bbf214b0892501b4",
+        "signature": "3fb054e4b3d054c1f27b7e37ba67f5f53d383dec81380a97bbf214b0892501b4"
+      },
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/logger.d.ts": {
+        "version": "9001f48bf908186ab6508d46d415aa3fb624c713a0272157394344e69e17c2bc",
+        "signature": "9001f48bf908186ab6508d46d415aa3fb624c713a0272157394344e69e17c2bc"
+      },
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/handles.d.ts": {
+        "version": "3e818b899630124dd34df118a3d648e2e46bcf1c7cf0c830b5db442f730c4c6b",
+        "signature": "3e818b899630124dd34df118a3d648e2e46bcf1c7cf0c830b5db442f730c4c6b"
+      },
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/main.d.ts": {
+        "version": "58911b706e04f46c4fb3765ad0508823d9569df1a51f916e7c60d8e457a6f5ce",
+        "signature": "58911b706e04f46c4fb3765ad0508823d9569df1a51f916e7c60d8e457a6f5ce"
+      },
+      "../../salesforcedx-apex-debugger/out/src/breakpoints/exceptionBreakpoint.d.ts": {
+        "version": "6ca4aea4827db6c6ad69862db48ac0ea2e54c7dfa90e740dcee2b2c74bfed40b",
+        "signature": "6ca4aea4827db6c6ad69862db48ac0ea2e54c7dfa90e740dcee2b2c74bfed40b"
+      },
+      "../../salesforcedx-apex-debugger/out/src/breakpoints/lineBreakpoint.d.ts": {
+        "version": "6a7b648adcf4e3b79d95a4da6b81389fe9e103915b0a14484ed1958c2bd79600",
+        "signature": "6a7b648adcf4e3b79d95a4da6b81389fe9e103915b0a14484ed1958c2bd79600"
+      },
+      "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts": {
+        "version": "271ce088f90469266dda442bb160cbe5ef842f1bf1c8257f8af4c17093414994",
+        "signature": "271ce088f90469266dda442bb160cbe5ef842f1bf1c8257f8af4c17093414994"
+      },
+      "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts": {
+        "version": "6dbbbe8899362c49e9eecb39fddebe67cc96e802ccdc33401cb2b8fc7536bb27",
+        "signature": "6dbbbe8899362c49e9eecb39fddebe67cc96e802ccdc33401cb2b8fc7536bb27"
+      },
+      "../../salesforcedx-apex-debugger/out/src/commands/frameCommand.d.ts": {
+        "version": "d9eba85863f5b736e2cea0c3489b8208e8f3a1927a824ae901d807a085f896a6",
+        "signature": "d9eba85863f5b736e2cea0c3489b8208e8f3a1927a824ae901d807a085f896a6"
+      },
+      "../../salesforcedx-apex-debugger/out/src/commands/referencesCommand.d.ts": {
+        "version": "f36405b5854b38fe5914a576942efb8e985d825981e61d1973883352b588cc9e",
+        "signature": "f36405b5854b38fe5914a576942efb8e985d825981e61d1973883352b588cc9e"
+      },
+      "../../salesforcedx-apex-debugger/out/src/commands/runCommand.d.ts": {
+        "version": "1915b0e12eecce5368325a863d6e3389a0afc06b0b7915c4048a160fa267208d",
+        "signature": "1915b0e12eecce5368325a863d6e3389a0afc06b0b7915c4048a160fa267208d"
+      },
+      "../../salesforcedx-apex-debugger/out/src/commands/stepCommands.d.ts": {
+        "version": "3d38aade4eaadfd11a89016039484d8bdccf484aa76151c5847e707215d91471",
+        "signature": "3d38aade4eaadfd11a89016039484d8bdccf484aa76151c5847e707215d91471"
+      },
+      "../../salesforcedx-apex-debugger/out/src/commands/stateCommand.d.ts": {
+        "version": "2bcea560d0cfbd57a3f0e7d05588858b2442b1b2e063833b6c83a98ade6a9063",
+        "signature": "2bcea560d0cfbd57a3f0e7d05588858b2442b1b2e063833b6c83a98ade6a9063"
+      },
+      "../../salesforcedx-apex-debugger/out/src/commands/index.d.ts": {
+        "version": "570603d31c594ad78b4327d7555ce54b64ddf7c0b1fba04ffcc35402fb56998d",
+        "signature": "570603d31c594ad78b4327d7555ce54b64ddf7c0b1fba04ffcc35402fb56998d"
+      },
+      "../../salesforcedx-apex-debugger/out/src/core/breakpointService.d.ts": {
+        "version": "4a28d23eeaeb0fe80cb089c479e076b9b90e050bad8e5da4f566f150a8fa43bc",
+        "signature": "4a28d23eeaeb0fe80cb089c479e076b9b90e050bad8e5da4f566f150a8fa43bc"
+      },
+      "../../salesforcedx-apex-debugger/out/src/core/sessionService.d.ts": {
+        "version": "98bf980f42f89ebab377b81fe4458448f2206de071bd0ac65f38ef0d07f9e740",
+        "signature": "98bf980f42f89ebab377b81fe4458448f2206de071bd0ac65f38ef0d07f9e740"
+      },
+      "../../salesforcedx-apex-debugger/out/src/core/streamingClient.d.ts": {
+        "version": "9b136af71add27310f3a9293d2336b720ed49360afb76be34e728d52ba566c31",
+        "signature": "9b136af71add27310f3a9293d2336b720ed49360afb76be34e728d52ba566c31"
+      },
+      "../../salesforcedx-apex-debugger/out/src/core/streamingService.d.ts": {
+        "version": "b6ddd88441327a634e159b520f1bd6ba346950b2db8d7dac54a73ae0d4463499",
+        "signature": "b6ddd88441327a634e159b520f1bd6ba346950b2db8d7dac54a73ae0d4463499"
+      },
+      "../../salesforcedx-apex-debugger/out/src/core/index.d.ts": {
+        "version": "b19216508ea0e078a1d824e894330dd1c3f6b5164c5768fc8f6efe81523d5c99",
+        "signature": "b19216508ea0e078a1d824e894330dd1c3f6b5164c5768fc8f6efe81523d5c99"
+      },
+      "../../salesforcedx-apex-debugger/out/src/adapter/apexDebug.d.ts": {
+        "version": "82ed25dcb97995496c801357e24ab3077bca874bb6693cdbe887f313d7199606",
+        "signature": "82ed25dcb97995496c801357e24ab3077bca874bb6693cdbe887f313d7199606"
+      },
+      "../../salesforcedx-apex-debugger/out/src/index.d.ts": {
+        "version": "23c24559cd48b94c408a4cb25c7551125b8455ee810779e104690964e8483980",
+        "signature": "23c24559cd48b94c408a4cb25c7551125b8455ee810779e104690964e8483980"
+      },
+      "../node_modules/@types/vscode/index.d.ts": {
+        "version": "ba5def23a286a9211bd52c78715160ed4bc7e34ba8bf2054fa475edfd3027784",
+        "signature": "ba5def23a286a9211bd52c78715160ed4bc7e34ba8bf2054fa475edfd3027784"
+      },
+      "../node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts": {
+        "version": "23c5fc0bad6e6cdbcdb984b1ab041f98fed79a897b918df9c9b85d3b0aebbe9a",
+        "signature": "23c5fc0bad6e6cdbcdb984b1ab041f98fed79a897b918df9c9b85d3b0aebbe9a"
+      },
+      "../../salesforcedx-utils-vscode/out/src/i18n/localization.d.ts": {
+        "version": "18cac5856b12ac664b76285f4ad68b8a3cc86447e7c83f18426e6ecce214359a",
+        "signature": "18cac5856b12ac664b76285f4ad68b8a3cc86447e7c83f18426e6ecce214359a"
+      },
+      "../../salesforcedx-utils-vscode/out/src/i18n/index.d.ts": {
+        "version": "7e7a194697ccee18fb5835e2adc9a007b5a5bbb9be86c7587d8bcb4a689b5719",
+        "signature": "7e7a194697ccee18fb5835e2adc9a007b5a5bbb9be86c7587d8bcb4a689b5719"
+      },
+      "../src/messages/index.ts": {
+        "version": "dcc04d7c9c0e9dc61fc29acf464842bc5445fed26a7c49603c382f101944e1e6",
+        "signature": "9259d02e9fde64ab245ba45c20eef5c904e198f5859753728d63be7039f2df09"
+      },
+      "../src/adapter/debugConfigurationProvider.ts": {
+        "version": "7820fd83a01af0da7eeffb2345a4bed13f0ac39704fb60bc5aa237aa94dc4024",
+        "signature": "e252a992d586be26b20a235036b2c5502e551517b8f06d339a7c13e28a53a167"
+      },
+      "../../salesforcedx-apex-debugger/out/src/context/isvContextUtil.d.ts": {
+        "version": "416ed276bd409ed1871b09b71b70d985b4f7c1a98b25b664f2e8a34ab86b0097",
+        "signature": "416ed276bd409ed1871b09b71b70d985b4f7c1a98b25b664f2e8a34ab86b0097"
+      },
+      "../../salesforcedx-apex-debugger/out/src/context/index.d.ts": {
+        "version": "64e847fa0cfcf9c46be5b4f2262d545b54d3130fca253bcf4ae3f15a700b2750",
+        "signature": "64e847fa0cfcf9c46be5b4f2262d545b54d3130fca253bcf4ae3f15a700b2750"
+      },
+      "../src/context/isvContext.ts": {
+        "version": "52e44e7f5f0ed9654f32b80f29f131dbee1dcc48bca9ee4625b8d40d98829cb9",
+        "signature": "489346e9d6b09f1009e4b30bcc65ae553fa7e0dd60c5a5cdfddbe5cc2c3ae0d3"
+      },
+      "../src/context/index.ts": {
+        "version": "1442cfd92fa9b4ce65928025b116e0db114b0abf323b785a3235ec4ff2769705",
+        "signature": "9e3eb0e0aad0f79d799ad7594854e500d4a21435f41ca86521f79790d46016f0"
+      },
+      "../node_modules/vscode-extension-telemetry/lib/telemetryReporter.d.ts": {
+        "version": "b60b121c92d716a0b606734e8bbbcf7b748bd72f5ca29d268d4d91989f78bbc8",
+        "signature": "b60b121c92d716a0b606734e8bbbcf7b748bd72f5ca29d268d4d91989f78bbc8"
+      },
+      "../src/telemetry/telemetry.ts": {
+        "version": "8dfdce615cc62e4b900518ef3252bd08b1b1cd465b3e5396f99079e21b49ccb8",
+        "signature": "dfb4f179fb13aeca0d31a77c064707b33f52d5ef60c960fc9baa94e339d710dd"
+      },
+      "../src/telemetry/index.ts": {
+        "version": "d0b54768cd5173fb01e07e851d79fd0e90895a57d7ce11e93acaae66808798dd",
+        "signature": "97e19e63b331d1463cc5df121b3f2e09d55a1e2c291e5983d1b2a13a4d678aad"
+      },
+      "../src/index.ts": {
+        "version": "933d4ecd13df1375ecb04d22c6e92601bb21df48caa5159e9f76578930a85453",
+        "signature": "e89c056a542e2bfa80a014e54e2a5e50ad5860c58d94d92a6ba68e5f8adeb061"
+      },
+      "../src/messages/i18n.ja.ts": {
+        "version": "7c9c4b1a81fbe40c2a94d653f0647697aa0fbc669c88891edd966c5b6da967b8",
+        "signature": "7bd9e750c8b041c5a712686e706e140e637f0bfcfedb9f0b6db6304734ce16b1"
+      },
+      "../src/messages/i18n.ts": {
+        "version": "07d10ed48cec0ffaf883fc2d431542ba49debf81a1ec4d15c0236aabbd82e8c9",
+        "signature": "e54cd983fb44a48addf0a6d2501a38e717cfe3eda06c26688f7b261633e42bd7"
+      },
+      "../node_modules/@types/chai/index.d.ts": {
+        "version": "c8747693e5872ad5ef3aa016731a06915e1c34dae987829d9aa5bd40c7a2c54b",
+        "signature": "c8747693e5872ad5ef3aa016731a06915e1c34dae987829d9aa5bd40c7a2c54b"
+      },
+      "../test/vscode-integration/index.test.ts": {
+        "version": "e2fb52bf972b009b2f5f0a0507a009a0bb251a6c6d6ab29e51515564085c5819",
+        "signature": "8b8ff3ac6a533fdfd68ca0f9c056c4a0f88dd9cd14c972d61ed643a7bcf7a887"
+      },
+      "../test/vscode-integration/index.ts": {
+        "version": "5c7504b2e540d7d4b23dcc3ea6fde29c9c74b3aa8139d3b7ff8db2bd3e98dc95",
+        "signature": "d34d578ea008ba03e0cb0c654dbc48ab8756df1ec7401d16df859718500484c0"
+      },
+      "../test/vscode-integration/adapter/MockApexExtension.ts": {
+        "version": "89e7ab9d7f728a72c08cea514d43d037a87cf146f3d40e7fdc8ab17756ed36d4",
+        "signature": "69cf19b24f4e19bf191b7d9a3340b199decd96156b872f0eabdeb8d9405e5658"
+      },
+      "../node_modules/@types/sinon/index.d.ts": {
+        "version": "42964be6d1b2c47abd3974e40ad57d4e8cd6474d196f3c9f71f770a6f29e7cc2",
+        "signature": "42964be6d1b2c47abd3974e40ad57d4e8cd6474d196f3c9f71f770a6f29e7cc2"
+      },
+      "../test/vscode-integration/adapter/debugConfigurationProvider.test.ts": {
+        "version": "ac6bd73ef49cbc1ba7d4ff4ec3c1fe4e87f77bd503487aa3c5c131a3d78e933d",
+        "signature": "cf35a929d66384b2d2b38d76f7705fafcf114d9eb13a839a50fcb002bdf91604"
+      },
+      "../test/vscode-integration/telemetry/telemetry.test.ts": {
+        "version": "e4ecb2e6e06b1c95cb680ae71c7c6803d0be68ee49c959b47b1a6472332eeecb",
+        "signature": "2755f9535f703631f3b13824c58d9ea8a911fc7c3ca3e2336076f96f66f5d438"
+      },
+      "../typings/modules/faye/index.d.ts": {
+        "version": "69132328214cec613289eeb778c2c28f5f5ca0eabbb9b178a186038b5ee684a3",
+        "signature": "69132328214cec613289eeb778c2c28f5f5ca0eabbb9b178a186038b5ee684a3"
+      },
+      "../node_modules/@types/mocha/index.d.ts": {
+        "version": "c4c03cf65951d980ba618ae9601d10438730803fc9c8a1f7b34af8739981e205",
+        "signature": "c4c03cf65951d980ba618ae9601d10438730803fc9c8a1f7b34af8739981e205"
+      },
+      "../../../node_modules/@types/adm-zip/index.d.ts": {
+        "version": "bf7ccda18d9cb9ed3047d96a6542fee3c3bc4e7a7822af40332c5c2f6e07c2b7",
+        "signature": "bf7ccda18d9cb9ed3047d96a6542fee3c3bc4e7a7822af40332c5c2f6e07c2b7"
+      },
+      "../../../node_modules/@types/async-lock/index.d.ts": {
+        "version": "a0de6442a82c62dfee1bd588a1fba1fbc53c26e2616e08f6d0bcc384f07c9799",
+        "signature": "a0de6442a82c62dfee1bd588a1fba1fbc53c26e2616e08f6d0bcc384f07c9799"
+      },
+      "../../../node_modules/@babel/types/lib/index.d.ts": {
+        "version": "2ff9995137f3e5d68971388ec58af0c79721626323884513f9f5e2e996ac1fdd",
+        "signature": "2ff9995137f3e5d68971388ec58af0c79721626323884513f9f5e2e996ac1fdd"
+      },
+      "../../../node_modules/@types/babel__traverse/ts4.1/index.d.ts": {
+        "version": "7ec562d20173996ab057cd17eb0af2e5de5fee1b1024ef20373c105b18020346",
+        "signature": "7ec562d20173996ab057cd17eb0af2e5de5fee1b1024ef20373c105b18020346"
+      },
+      "../../../node_modules/keyv/src/index.d.ts": {
+        "version": "4af3bd37ed60ff9aa272f4637db0d430d63ed10dc1e427f31b1eaae0e9dabd97",
+        "signature": "4af3bd37ed60ff9aa272f4637db0d430d63ed10dc1e427f31b1eaae0e9dabd97"
+      },
+      "../../../node_modules/@types/http-cache-semantics/index.d.ts": {
+        "version": "cab425b5559edac18327eb2c3c0f47e7e9f71b667290b7689faafd28aac69eae",
+        "signature": "cab425b5559edac18327eb2c3c0f47e7e9f71b667290b7689faafd28aac69eae"
+      },
+      "../../../node_modules/@types/responselike/index.d.ts": {
+        "version": "3cfb0cb51cc2c2e1b313d7c4df04dbf7e5bda0a133c6b309bf6af77cf614b971",
+        "signature": "3cfb0cb51cc2c2e1b313d7c4df04dbf7e5bda0a133c6b309bf6af77cf614b971"
+      },
+      "../../../node_modules/@types/cacheable-request/index.d.ts": {
+        "version": "f992cd6cc0bcbaa4e6c810468c90f2d8595f8c6c3cf050c806397d3de8585562",
+        "signature": "f992cd6cc0bcbaa4e6c810468c90f2d8595f8c6c3cf050c806397d3de8585562"
+      },
+      "../../../node_modules/@types/chokidar/index.d.ts": {
+        "version": "c19e37c978e17f2b9c175a568f0d4ec539aa53dd6ec4f4f2e6fce03a48cbc500",
+        "signature": "c19e37c978e17f2b9c175a568f0d4ec539aa53dd6ec4f4f2e6fce03a48cbc500"
+      },
+      "../../../node_modules/@types/cross-spawn/index.d.ts": {
+        "version": "ae43bcc31c8967cb652f70ae2046abad997f0e034340986cb46d48f89c8c828e",
+        "signature": "ae43bcc31c8967cb652f70ae2046abad997f0e034340986cb46d48f89c8c828e"
+      },
+      "../../../node_modules/@types/debounce/index.d.ts": {
+        "version": "68c559681a043ca6d622debcce75c4d82446fec08e06bf1066f71d6c325f224e",
+        "signature": "68c559681a043ca6d622debcce75c4d82446fec08e06bf1066f71d6c325f224e"
+      },
+      "../../../node_modules/@types/eslint/helpers.d.ts": {
+        "version": "64d4b35c5456adf258d2cf56c341e203a073253f229ef3208fc0d5020253b241",
+        "signature": "64d4b35c5456adf258d2cf56c341e203a073253f229ef3208fc0d5020253b241"
+      },
+      "../../../node_modules/@types/json-schema/index.d.ts": {
+        "version": "f3e604694b624fa3f83f6684185452992088f5efb2cf136b62474aa106d6f1b6",
+        "signature": "f3e604694b624fa3f83f6684185452992088f5efb2cf136b62474aa106d6f1b6"
+      },
+      "../../../node_modules/@types/estree/index.d.ts": {
+        "version": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b",
+        "signature": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b"
+      },
+      "../../../node_modules/@types/eslint/index.d.ts": {
+        "version": "8d9d743d7c21d105be24d154834a94557671c0ab0fc7f7329d3076784a80aa93",
+        "signature": "8d9d743d7c21d105be24d154834a94557671c0ab0fc7f7329d3076784a80aa93"
+      },
+      "../../../node_modules/@types/eslint-scope/index.d.ts": {
+        "version": "dc33ce27fbeaf0ea3da556c80a6cc8af9d13eb443088c8f25cdc39fca8e756f6",
+        "signature": "dc33ce27fbeaf0ea3da556c80a6cc8af9d13eb443088c8f25cdc39fca8e756f6"
+      },
+      "../../../node_modules/@types/expect/index.d.ts": {
+        "version": "975f84de013567851d216d78a3a86736bb330cae11fdc907b222dffa148b31d2",
+        "signature": "975f84de013567851d216d78a3a86736bb330cae11fdc907b222dffa148b31d2"
+      },
+      "../../../node_modules/@types/fs-extra/index.d.ts": {
+        "version": "6de408de17cb0e3fa3a5e3d0f79bd104848d98dbfa72e92fddfa1a4aa3d8393c",
+        "signature": "6de408de17cb0e3fa3a5e3d0f79bd104848d98dbfa72e92fddfa1a4aa3d8393c"
+      },
+      "../../../node_modules/@types/minimatch/index.d.ts": {
+        "version": "8841e2aa774b89bd23302dede20663306dc1b9902431ac64b24be8b8d0e3f649",
+        "signature": "8841e2aa774b89bd23302dede20663306dc1b9902431ac64b24be8b8d0e3f649"
+      },
+      "../../../node_modules/@types/glob/index.d.ts": {
+        "version": "fd326577c62145816fe1acc306c734c2396487f76719d3785d4e825b34540b33",
+        "signature": "fd326577c62145816fe1acc306c734c2396487f76719d3785d4e825b34540b33"
+      },
+      "../../../node_modules/@types/graceful-fs/index.d.ts": {
+        "version": "3ebae8c00411116a66fca65b08228ea0cf0b72724701f9b854442100aab55aba",
+        "signature": "3ebae8c00411116a66fca65b08228ea0cf0b72724701f9b854442100aab55aba"
+      },
+      "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
+        "version": "8b06ac3faeacb8484d84ddb44571d8f410697f98d7bfa86c0fda60373a9f5215",
+        "signature": "8b06ac3faeacb8484d84ddb44571d8f410697f98d7bfa86c0fda60373a9f5215"
+      },
+      "../../../node_modules/@types/istanbul-lib-report/index.d.ts": {
+        "version": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee",
+        "signature": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee"
+      },
+      "../../../node_modules/@types/istanbul-reports/index.d.ts": {
+        "version": "f5638f7c2f12a9a1a57b5c41b3c1ea7db3876c003bab68e6a57afd6bcc169af0",
+        "signature": "f5638f7c2f12a9a1a57b5c41b3c1ea7db3876c003bab68e6a57afd6bcc169af0"
+      },
+      "../../../node_modules/@types/jsforce/describe-result.d.ts": {
+        "version": "804121666f0528f0e6c7b9d3f7a65022a13af9523302095ac297b81f496ca60d",
+        "signature": "804121666f0528f0e6c7b9d3f7a65022a13af9523302095ac297b81f496ca60d"
+      },
+      "../../../node_modules/@types/jsforce/salesforce-id.d.ts": {
+        "version": "4295a5a312a05f59ee74a2774a8e5ff2ae5e8f5d6b44c632dff5570d02aacd4a",
+        "signature": "4295a5a312a05f59ee74a2774a8e5ff2ae5e8f5d6b44c632dff5570d02aacd4a"
+      },
+      "../../../node_modules/@types/jsforce/record-result.d.ts": {
+        "version": "c2c4f294bbdc45defee171559af6ea10b49778e7b1e04f74e089efd7019fd071",
+        "signature": "c2c4f294bbdc45defee171559af6ea10b49778e7b1e04f74e089efd7019fd071"
+      },
+      "../../../node_modules/@types/jsforce/query.d.ts": {
+        "version": "e5b560efbed9aeb9b3bdb5e2b228cd373f1cb08bb4291b802febd29085ab0b91",
+        "signature": "e5b560efbed9aeb9b3bdb5e2b228cd373f1cb08bb4291b802febd29085ab0b91"
+      },
+      "../../../node_modules/@types/jsforce/record.d.ts": {
+        "version": "618c595149eb45c04518fe8c7aada80857a74667d0131380326c0cde307bcfeb",
+        "signature": "618c595149eb45c04518fe8c7aada80857a74667d0131380326c0cde307bcfeb"
+      },
+      "../../../node_modules/@types/jsforce/salesforce-object-options.d.ts": {
+        "version": "88fcb210218d808137ccfb977d8cf31c18f81e80a79394c4be1e642f44be360b",
+        "signature": "88fcb210218d808137ccfb977d8cf31c18f81e80a79394c4be1e642f44be360b"
+      },
+      "../../../node_modules/@types/jsforce/create-options.d.ts": {
+        "version": "b6f239407ae7d054c8004fc0673dd660b54276e2826e227ca35fe88f7fcff324",
+        "signature": "b6f239407ae7d054c8004fc0673dd660b54276e2826e227ca35fe88f7fcff324"
+      },
+      "../../../node_modules/@types/jsforce/record-stream.d.ts": {
+        "version": "3c68a3936ab90f63a2c4d8ae158e74e7e243acf5ae86363d1454675dd0edfe34",
+        "signature": "3c68a3936ab90f63a2c4d8ae158e74e7e243acf5ae86363d1454675dd0edfe34"
+      },
+      "../../../node_modules/@types/jsforce/batch.d.ts": {
+        "version": "b444616c4737899a746ded97d565ccfc2eab92b74b663acbe1548d43242ce6d9",
+        "signature": "b444616c4737899a746ded97d565ccfc2eab92b74b663acbe1548d43242ce6d9"
+      },
+      "../../../node_modules/@types/jsforce/quick-action.d.ts": {
+        "version": "86f9fbee70e361ce11309ec40232a2a2bf575fea347ed63d38f7cb1af22b9026",
+        "signature": "86f9fbee70e361ce11309ec40232a2a2bf575fea347ed63d38f7cb1af22b9026"
+      },
+      "../../../node_modules/@types/jsforce/salesforce-object.d.ts": {
+        "version": "16549ebc02709b4437c6ddab0c2f28eb2ba0fb8044aca04ec17c316a433cb0c4",
+        "signature": "16549ebc02709b4437c6ddab0c2f28eb2ba0fb8044aca04ec17c316a433cb0c4"
+      },
+      "../../../node_modules/@types/jsforce/api/chatter.d.ts": {
+        "version": "c5befcb6a4936f5cad4a01571d509943774768b5e22988a1491c74e07db2c773",
+        "signature": "c5befcb6a4936f5cad4a01571d509943774768b5e22988a1491c74e07db2c773"
+      },
+      "../../../node_modules/@types/jsforce/api/metadata.d.ts": {
+        "version": "97e9c34894f2fdc821eb4a1a477dc1efd5b971a5968c6ca263346f00229c0902",
+        "signature": "97e9c34894f2fdc821eb4a1a477dc1efd5b971a5968c6ca263346f00229c0902"
+      },
+      "../../../node_modules/@types/jsforce/api/soap.d.ts": {
+        "version": "6047189a74c5cd5b7736c60f71501b41ea5407840aca07baf5cfcd6e2250c7cd",
+        "signature": "6047189a74c5cd5b7736c60f71501b41ea5407840aca07baf5cfcd6e2250c7cd"
+      },
+      "../../../node_modules/@types/jsforce/api/apex.d.ts": {
+        "version": "384cc35df9c0639c1a30a689e5261bffdecc0f6e1796cdd81f485ccbef9f1142",
+        "signature": "384cc35df9c0639c1a30a689e5261bffdecc0f6e1796cdd81f485ccbef9f1142"
+      },
+      "../../../node_modules/@types/jsforce/job.d.ts": {
+        "version": "16063b35927d9b1efbf94cb3f831728c1bcb62eb4f80d17dd8151c247566fa87",
+        "signature": "16063b35927d9b1efbf94cb3f831728c1bcb62eb4f80d17dd8151c247566fa87"
+      },
+      "../../../node_modules/@types/jsforce/bulk.d.ts": {
+        "version": "9005970ff2e0992e5e6d67d655b2ff922c3d51d16e8b0d5b044e08ef95d6c163",
+        "signature": "9005970ff2e0992e5e6d67d655b2ff922c3d51d16e8b0d5b044e08ef95d6c163"
+      },
+      "../../../node_modules/@types/jsforce/cache.d.ts": {
+        "version": "c339482a73bbf8976ba0e1e5c1ff48b50de204df02a9900b99b0f1656f20ab68",
+        "signature": "c339482a73bbf8976ba0e1e5c1ff48b50de204df02a9900b99b0f1656f20ab68"
+      },
+      "../../../node_modules/@types/jsforce/http-api.d.ts": {
+        "version": "d9a80aba32f2ab748ca99568cb9e9a8a5afc033425aa06dc61215f495c7b27c3",
+        "signature": "d9a80aba32f2ab748ca99568cb9e9a8a5afc033425aa06dc61215f495c7b27c3"
+      },
+      "../../../node_modules/@types/jsforce/limits-info.d.ts": {
+        "version": "e35a32239d6cf65fa07f69eb6b60e5e5c426a0f0f416903cb7ff9e4c63d90b11",
+        "signature": "e35a32239d6cf65fa07f69eb6b60e5e5c426a0f0f416903cb7ff9e4c63d90b11"
+      },
+      "../../../node_modules/@types/jsforce/connection.d.ts": {
+        "version": "05c1ad3b4ccf7b04e5408d45617968648c0171a5544065b67d15b850061d2096",
+        "signature": "05c1ad3b4ccf7b04e5408d45617968648c0171a5544065b67d15b850061d2096"
+      },
+      "../../../node_modules/@types/jsforce/api/analytics.d.ts": {
+        "version": "6e15040db352c4e4a82aecb0dc3d9473250f505b231e261ff8ad4d3e88137272",
+        "signature": "6e15040db352c4e4a82aecb0dc3d9473250f505b231e261ff8ad4d3e88137272"
+      },
+      "../../../node_modules/@types/jsforce/topic.d.ts": {
+        "version": "149cd423c03fbf662c33ffb8f6d2926fd69c0591d8772d2fb17ce9afbc62982a",
+        "signature": "149cd423c03fbf662c33ffb8f6d2926fd69c0591d8772d2fb17ce9afbc62982a"
+      },
+      "../../../node_modules/@types/jsforce/streaming.d.ts": {
+        "version": "bb7e54516b45c3872df2807dee5a42c87e52730ba70a7d7daeb5f9b3f06ec991",
+        "signature": "bb7e54516b45c3872df2807dee5a42c87e52730ba70a7d7daeb5f9b3f06ec991"
+      },
+      "../../../node_modules/@types/jsforce/channel.d.ts": {
+        "version": "557e49fb7714b0fc0a4c518062338973bde7548e514e27d6ad6ddebf2a1d836a",
+        "signature": "557e49fb7714b0fc0a4c518062338973bde7548e514e27d6ad6ddebf2a1d836a"
+      },
+      "../../../node_modules/@types/jsforce/date-enum.d.ts": {
+        "version": "a8e8ecfe9d2bee746a0d4b4e24996d7a1cdefc1472c8957c14ccf44fa4e5766e",
+        "signature": "a8e8ecfe9d2bee746a0d4b4e24996d7a1cdefc1472c8957c14ccf44fa4e5766e"
+      },
+      "../../../node_modules/@types/jsforce/oauth2.d.ts": {
+        "version": "e46124ebc52af609356095f74df25e12acaf01d52efb8b203a1359b7f8846744",
+        "signature": "e46124ebc52af609356095f74df25e12acaf01d52efb8b203a1359b7f8846744"
+      },
+      "../../../node_modules/@types/jsforce/promise.d.ts": {
+        "version": "3f6cf478c283467790eb1acb472bb4f2fe1eaa8fd4804a7f109a71f38c58051d",
+        "signature": "3f6cf478c283467790eb1acb472bb4f2fe1eaa8fd4804a7f109a71f38c58051d"
+      },
+      "../../../node_modules/@types/jsforce/date.d.ts": {
+        "version": "d95303f06f0ba7866d1542f582da42a5abbd95c3edc540e1898a09f9f50cb446",
+        "signature": "d95303f06f0ba7866d1542f582da42a5abbd95c3edc540e1898a09f9f50cb446"
+      },
+      "../../../node_modules/@types/jsforce/index.d.ts": {
+        "version": "8550d14b60569f89420c2bceef57490a59ce06f4ecdb6bac43433109575c1cce",
+        "signature": "8550d14b60569f89420c2bceef57490a59ce06f4ecdb6bac43433109575c1cce"
+      },
+      "../../../node_modules/@types/json-buffer/index.d.ts": {
+        "version": "75bdc1b420f0ffc6cc6fd0b6694d89f5072bf755b4e6c7e65a2fda797ca0bb8a",
+        "signature": "75bdc1b420f0ffc6cc6fd0b6694d89f5072bf755b4e6c7e65a2fda797ca0bb8a"
+      },
+      "../../../node_modules/@types/json5/index.d.ts": {
+        "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538"
+      },
+      "../../../node_modules/@types/keyv/index.d.ts": {
+        "version": "fec943fdb3275eb6e006b35e04a8e2e99e9adf3f4b969ddf15315ac7575a93e4",
+        "signature": "fec943fdb3275eb6e006b35e04a8e2e99e9adf3f4b969ddf15315ac7575a93e4"
+      },
+      "../../../node_modules/@types/minimist/index.d.ts": {
+        "version": "209e814e8e71aec74f69686a9506dd7610b97ab59dcee9446266446f72a76d05",
+        "signature": "209e814e8e71aec74f69686a9506dd7610b97ab59dcee9446266446f72a76d05"
+      },
+      "../../../node_modules/@types/mkdirp/index.d.ts": {
+        "version": "6396a7a06f3ef0fc31a7c89330e015146b78a2256b030c698b6d404594c37b8f",
+        "signature": "6396a7a06f3ef0fc31a7c89330e015146b78a2256b030c698b6d404594c37b8f"
+      },
+      "../../../node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "6fa0008bf91a4cc9c8963bace4bba0bd6865cbfa29c3e3ccc461155660fb113a",
+        "signature": "6fa0008bf91a4cc9c8963bace4bba0bd6865cbfa29c3e3ccc461155660fb113a"
+      },
+      "../../../node_modules/@types/papaparse/index.d.ts": {
+        "version": "279f961ab0daec76a51d102e3f7a74cdb27bf31c3abafc70612841e19759c75c",
+        "signature": "279f961ab0daec76a51d102e3f7a74cdb27bf31c3abafc70612841e19759c75c"
+      },
+      "../../../node_modules/@types/parse-json/index.d.ts": {
+        "version": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
+        "signature": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b"
+      },
+      "../../../node_modules/@types/path-exists/index.d.ts": {
+        "version": "9dcc646bf1e6f0a38ae08a44732d77ad209dfcf31c25b64a17cbeb3d71eb21eb",
+        "signature": "9dcc646bf1e6f0a38ae08a44732d77ad209dfcf31c25b64a17cbeb3d71eb21eb"
+      },
+      "../../../node_modules/@types/prettier/index.d.ts": {
+        "version": "429b6df7d7b94389bd42cfdf39bccea903acd3628498cec6172302801fbeac89",
+        "signature": "429b6df7d7b94389bd42cfdf39bccea903acd3628498cec6172302801fbeac89"
+      },
+      "../../../node_modules/@types/proxyquire/index.d.ts": {
+        "version": "2bca896d780555ea2b1d74895833067da5410b312f7bb1baa99ca1502b79d09c",
+        "signature": "2bca896d780555ea2b1d74895833067da5410b312f7bb1baa99ca1502b79d09c"
+      },
+      "../../../node_modules/@types/rimraf/index.d.ts": {
+        "version": "f4cf5f0ad1cfb0ceebbe4fbe8aaf0aa728e899c99cc36ec6c0c4b8f6e8a84c83",
+        "signature": "f4cf5f0ad1cfb0ceebbe4fbe8aaf0aa728e899c99cc36ec6c0c4b8f6e8a84c83"
+      },
+      "../../../node_modules/@types/selenium-webdriver/remote.d.ts": {
+        "version": "e8cc0ebf11425af94412e3a4cc884feed4a1a79fb27d48d9477b4b2b2cb314e6",
+        "signature": "e8cc0ebf11425af94412e3a4cc884feed4a1a79fb27d48d9477b4b2b2cb314e6"
+      },
+      "../../../node_modules/@types/selenium-webdriver/http.d.ts": {
+        "version": "eec632398d8634f151c2d53596c28b223a25bbea092a925e58e88013e2397d7d",
+        "signature": "eec632398d8634f151c2d53596c28b223a25bbea092a925e58e88013e2397d7d"
+      },
+      "../../../node_modules/@types/selenium-webdriver/chrome.d.ts": {
+        "version": "0b6f22f77bf05be4ff90b60d2223c51da8921b75473cc7f91d354090b872da2c",
+        "signature": "0b6f22f77bf05be4ff90b60d2223c51da8921b75473cc7f91d354090b872da2c"
+      },
+      "../../../node_modules/@types/selenium-webdriver/edge.d.ts": {
+        "version": "d4fd0745a2c152be86bc27e4acd08efcce7beec83de39dace9eb742682e7674e",
+        "signature": "d4fd0745a2c152be86bc27e4acd08efcce7beec83de39dace9eb742682e7674e"
+      },
+      "../../../node_modules/@types/selenium-webdriver/firefox.d.ts": {
+        "version": "b80ebb1b98c07eff3b4d489fd7be8589d175bd7a8fead09398d968537988db2a",
+        "signature": "b80ebb1b98c07eff3b4d489fd7be8589d175bd7a8fead09398d968537988db2a"
+      },
+      "../../../node_modules/@types/selenium-webdriver/ie.d.ts": {
+        "version": "d18a5e48d10a4a792c8cb2a20c1f682207973a80dd81ecf62c2ce4d4918c3b84",
+        "signature": "d18a5e48d10a4a792c8cb2a20c1f682207973a80dd81ecf62c2ce4d4918c3b84"
+      },
+      "../../../node_modules/@types/selenium-webdriver/opera.d.ts": {
+        "version": "86dfbbb377eb292dfd702390c9bf386012a5ec24b3269fbd87d3eef71a402cd7",
+        "signature": "86dfbbb377eb292dfd702390c9bf386012a5ec24b3269fbd87d3eef71a402cd7"
+      },
+      "../../../node_modules/@types/selenium-webdriver/safari.d.ts": {
+        "version": "6ebb7c2a7f339a3968de46421dbdbd65d0233199cf572e6d2de31033f5704386",
+        "signature": "6ebb7c2a7f339a3968de46421dbdbd65d0233199cf572e6d2de31033f5704386"
+      },
+      "../../../node_modules/@types/selenium-webdriver/index.d.ts": {
+        "version": "2b1b17ebc7d48f1cf7331834e3dd9919b8544b04dfe5aead609a34a4f608e69b",
+        "signature": "2b1b17ebc7d48f1cf7331834e3dd9919b8544b04dfe5aead609a34a4f608e69b"
+      },
+      "../../../node_modules/@types/shelljs/index.d.ts": {
+        "version": "4e5b33327b9e3f49a56d2e30443c260056210d80e6d1904ddf88cf14b4bd5439",
+        "signature": "4e5b33327b9e3f49a56d2e30443c260056210d80e6d1904ddf88cf14b4bd5439"
+      },
+      "../../../node_modules/@types/sinon/index.d.ts": {
+        "version": "42964be6d1b2c47abd3974e40ad57d4e8cd6474d196f3c9f71f770a6f29e7cc2",
+        "signature": "42964be6d1b2c47abd3974e40ad57d4e8cd6474d196f3c9f71f770a6f29e7cc2"
+      },
+      "../../../node_modules/@types/sinon-chai/index.d.ts": {
+        "version": "0fd3b5704bf037608646df5aa053fd06819ff69302ff6ada9736c300f79df852",
+        "signature": "0fd3b5704bf037608646df5aa053fd06819ff69302ff6ada9736c300f79df852"
+      },
+      "../../../node_modules/@types/sinonjs__fake-timers/index.d.ts": {
+        "version": "f83b320cceccfc48457a818d18fc9a006ab18d0bdd727aa2c2e73dc1b4a45e98",
+        "signature": "f83b320cceccfc48457a818d18fc9a006ab18d0bdd727aa2c2e73dc1b4a45e98"
+      },
+      "../../../node_modules/@types/stack-utils/index.d.ts": {
+        "version": "b0d10e46cfe3f6c476b69af02eaa38e4ccc7430221ce3109ae84bb9fb8282298",
+        "signature": "b0d10e46cfe3f6c476b69af02eaa38e4ccc7430221ce3109ae84bb9fb8282298"
+      },
+      "../../../node_modules/@types/uuid/interfaces.d.ts": {
+        "version": "4116dff2582ecc8645c3a90d26707ec6fd9ede6631f63fb65f11d42806bb47f1",
+        "signature": "4116dff2582ecc8645c3a90d26707ec6fd9ede6631f63fb65f11d42806bb47f1"
+      },
+      "../../../node_modules/@types/uuid/index.d.ts": {
+        "version": "8486ee0cb2ef80c6555941e2e0d081b27e9a07eca9df720c99f001f5220f14b5",
+        "signature": "8486ee0cb2ef80c6555941e2e0d081b27e9a07eca9df720c99f001f5220f14b5"
+      },
+      "../../../node_modules/@types/vinyl/index.d.ts": {
+        "version": "c9ffce38ec2ac0d683dc22d916b4fd923fd94ecf029fe5b1f6ddf1669d558042",
+        "signature": "c9ffce38ec2ac0d683dc22d916b4fd923fd94ecf029fe5b1f6ddf1669d558042"
+      },
+      "../../../node_modules/@types/webdriverio/index.d.ts": {
+        "version": "1642bd61bdeb7f67cec17666b7baef2fcb6d88fb5300de9ad96bf67b018903ba",
+        "signature": "1642bd61bdeb7f67cec17666b7baef2fcb6d88fb5300de9ad96bf67b018903ba"
+      },
+      "../../../node_modules/@types/which/index.d.ts": {
+        "version": "1e737469ef0482a3ca2ab4b98d2e193cc011448ca623299a4c5f38d5d6c1b554",
+        "signature": "1e737469ef0482a3ca2ab4b98d2e193cc011448ca623299a4c5f38d5d6c1b554"
+      },
+      "../../../node_modules/@types/yargs-parser/index.d.ts": {
+        "version": "70e9a18da08294f75bf23e46c7d69e67634c0765d355887b9b41f0d959e1426e",
+        "signature": "70e9a18da08294f75bf23e46c7d69e67634c0765d355887b9b41f0d959e1426e"
+      },
+      "../../../node_modules/@types/yargs/index.d.ts": {
+        "version": "09c4b2e2d3070239d563fc690f0cc5db04a2d9b66a23e61aef8b5274e3e9910c",
+        "signature": "09c4b2e2d3070239d563fc690f0cc5db04a2d9b66a23e61aef8b5274e3e9910c"
+      },
+      "../../../node_modules/@types/yeoman-assert/index.d.ts": {
+        "version": "485d12643df7d584154052d3a2995c7b10e9da578287f445da6e6502b0cd0012",
+        "signature": "485d12643df7d584154052d3a2995c7b10e9da578287f445da6e6502b0cd0012"
+      }
+    },
+    "options": {
+      "lib": [
+        "lib.es2015.d.ts",
+        "lib.dom.d.ts"
+      ],
+      "module": 1,
+      "target": 2,
+      "strict": true,
+      "esModuleInterop": false,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "composite": true,
+      "moduleResolution": 2,
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "preserveConstEnums": true,
+      "noImplicitAny": true,
+      "rootDir": "..",
+      "outDir": "./",
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../../../node_modules/typescript/lib/lib.es5.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2016.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.dom.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2020.bigint.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/constants.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/globals.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/assert.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/async_hooks.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/buffer.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/events/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/console.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/constants.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/dns.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/events.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/module.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/os.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/path.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/process.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/punycode.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/querystring.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/string_decoder.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/timers.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/trace_events.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/util.d.ts": [
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/v8.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/vm.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/base.d.ts": [
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/cluster.d.ts",
+        "../node_modules/@types/node/console.d.ts",
+        "../node_modules/@types/node/constants.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dgram.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/domain.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/http2.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/module.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/os.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/punycode.d.ts",
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/repl.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/string_decoder.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/trace_events.d.ts",
+        "../node_modules/@types/node/tty.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/v8.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/worker_threads.d.ts",
+        "../node_modules/@types/node/zlib.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.2/util.d.ts": [
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.2/globals.d.ts": [
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.2/index.d.ts": [
+        "../node_modules/@types/node/base.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/ts3.2/globals.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/requestService/baseCommand.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/node_modules/request-light/lib/main.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/requestService/requestService.d.ts": [
+        "../../salesforcedx-utils-vscode/node_modules/request-light/lib/main.d.ts",
+        "../../salesforcedx-utils-vscode/out/src/requestService/baseCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/baseCommand.d.ts",
+        "../../salesforcedx-utils-vscode/out/src/requestService/requestService.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/protocol.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/messages.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/protocol.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/messages.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/loggingDebugSession.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/logger.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/handles.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/main.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/loggingDebugSession.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/logger.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/messages.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/handles.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/breakpoints/exceptionBreakpoint.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/breakpoints/lineBreakpoint.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/frameCommand.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/referencesCommand.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/runCommand.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/stepCommands.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/stateCommand.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/index.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/frameCommand.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/referencesCommand.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/runCommand.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/stepCommands.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/stateCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/breakpointService.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/breakpoints/exceptionBreakpoint.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/breakpoints/lineBreakpoint.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/sessionService.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/streamingClient.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/streamingService.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/streamingClient.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/index.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/core/breakpointService.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/sessionService.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/streamingClient.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/streamingService.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/adapter/apexDebug.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/main.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/breakpoints/exceptionBreakpoint.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/breakpoints/lineBreakpoint.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/index.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/index.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/constants.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/adapter/apexDebug.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/vscode/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/i18n/localization.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/i18n/index.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/i18n/localization.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/messages/index.ts": [
+        "../../salesforcedx-utils-vscode/out/src/i18n/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/adapter/debugConfigurationProvider.ts": [
+        "../../salesforcedx-apex-debugger/out/src/index.d.ts",
+        "../node_modules/@types/vscode/index.d.ts",
+        "../src/messages/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/context/isvContextUtil.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/context/index.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/context/isvContextUtil.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/context/isvContext.ts": [
+        "../../salesforcedx-apex-debugger/out/src/context/index.d.ts",
+        "../node_modules/@types/vscode/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/context/index.ts": [
+        "../src/context/isvContext.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/vscode-extension-telemetry/lib/telemetryReporter.d.ts": [
+        "../node_modules/@types/vscode/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/telemetry/telemetry.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/vscode-extension-telemetry/lib/telemetryReporter.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/telemetry/index.ts": [
+        "../src/telemetry/telemetry.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/index.ts": [
+        "../../salesforcedx-apex-debugger/out/src/index.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/vscode/index.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../src/adapter/debugConfigurationProvider.ts",
+        "../src/context/index.ts",
+        "../src/messages/index.ts",
+        "../src/telemetry/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/messages/i18n.ja.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/messages/i18n.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/chai/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../test/vscode-integration/index.test.ts": [
+        "../../salesforcedx-apex-debugger/out/src/index.d.ts",
+        "../node_modules/@types/chai/index.d.ts",
+        "../node_modules/@types/vscode/index.d.ts",
+        "../src/index.ts",
+        "../src/messages/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../test/vscode-integration/index.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../test/vscode-integration/adapter/MockApexExtension.ts": [
+        "../node_modules/@types/vscode/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/sinon/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../test/vscode-integration/adapter/debugConfigurationProvider.test.ts": [
+        "../../salesforcedx-apex-debugger/out/src/index.d.ts",
+        "../node_modules/@types/chai/index.d.ts",
+        "../node_modules/@types/sinon/index.d.ts",
+        "../node_modules/@types/vscode/index.d.ts",
+        "../src/adapter/debugConfigurationProvider.ts",
+        "../src/messages/index.ts",
+        "../test/vscode-integration/adapter/MockApexExtension.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../test/vscode-integration/telemetry/telemetry.test.ts": [
+        "../node_modules/@types/sinon/index.d.ts",
+        "../node_modules/vscode-extension-telemetry/lib/telemetryReporter.d.ts",
+        "../src/telemetry/telemetry.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../typings/modules/faye/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/mocha/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/adm-zip/index.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/async-lock/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@babel/types/lib/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/babel__traverse/ts4.1/index.d.ts": [
+        "../../../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/keyv/src/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/http-cache-semantics/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/responselike/index.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/cacheable-request/index.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/keyv/src/index.d.ts",
+        "../../../node_modules/@types/http-cache-semantics/index.d.ts",
+        "../../../node_modules/@types/responselike/index.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/chokidar/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/cross-spawn/index.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/debounce/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/eslint/helpers.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/json-schema/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/estree/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/eslint/index.d.ts": [
+        "../../../node_modules/@types/json-schema/index.d.ts",
+        "../../../node_modules/@types/estree/index.d.ts",
+        "../../../node_modules/@types/eslint/helpers.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/eslint-scope/index.d.ts": [
+        "../../../node_modules/@types/eslint/index.d.ts",
+        "../../../node_modules/@types/estree/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/expect/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/fs-extra/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/minimatch/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/glob/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/@types/minimatch/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/graceful-fs/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/istanbul-reports/index.d.ts": [
+        "../../../node_modules/@types/istanbul-lib-report/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/describe-result.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/salesforce-id.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/record-result.d.ts": [
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/query.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/record.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/salesforce-object-options.d.ts": [
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/create-options.d.ts": [
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-object-options.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/record-stream.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/batch.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/record-stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/quick-action.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/salesforce-object.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/create-options.d.ts",
+        "../../../node_modules/@types/jsforce/describe-result.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../../../node_modules/@types/jsforce/batch.d.ts",
+        "../../../node_modules/@types/jsforce/quick-action.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/chatter.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/metadata.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/soap.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/apex.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/job.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/@types/jsforce/bulk.d.ts",
+        "../../../node_modules/@types/jsforce/batch.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/bulk.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/job.d.ts",
+        "../../../node_modules/@types/jsforce/batch.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/cache.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/http-api.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/limits-info.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/connection.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/@types/jsforce/describe-result.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-object.d.ts",
+        "../../../node_modules/@types/jsforce/api/analytics.d.ts",
+        "../../../node_modules/@types/jsforce/api/chatter.d.ts",
+        "../../../node_modules/@types/jsforce/api/metadata.d.ts",
+        "../../../node_modules/@types/jsforce/api/soap.d.ts",
+        "../../../node_modules/@types/jsforce/api/apex.d.ts",
+        "../../../node_modules/@types/jsforce/bulk.d.ts",
+        "../../../node_modules/@types/jsforce/cache.d.ts",
+        "../../../node_modules/@types/jsforce/index.d.ts",
+        "../../../node_modules/@types/jsforce/http-api.d.ts",
+        "../../../node_modules/@types/jsforce/limits-info.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/analytics.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/topic.d.ts": [
+        "../../../node_modules/@types/jsforce/streaming.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/streaming.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/channel.d.ts",
+        "../../../node_modules/@types/jsforce/topic.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/channel.d.ts": [
+        "../../../node_modules/@types/jsforce/streaming.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/date-enum.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/oauth2.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/promise.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/date.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/index.d.ts": [
+        "../../../node_modules/@types/jsforce/api/analytics.d.ts",
+        "../../../node_modules/@types/jsforce/api/apex.d.ts",
+        "../../../node_modules/@types/jsforce/api/chatter.d.ts",
+        "../../../node_modules/@types/jsforce/api/metadata.d.ts",
+        "../../../node_modules/@types/jsforce/api/soap.d.ts",
+        "../../../node_modules/@types/jsforce/batch.d.ts",
+        "../../../node_modules/@types/jsforce/bulk.d.ts",
+        "../../../node_modules/@types/jsforce/cache.d.ts",
+        "../../../node_modules/@types/jsforce/channel.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/date-enum.d.ts",
+        "../../../node_modules/@types/jsforce/describe-result.d.ts",
+        "../../../node_modules/@types/jsforce/job.d.ts",
+        "../../../node_modules/@types/jsforce/limits-info.d.ts",
+        "../../../node_modules/@types/jsforce/oauth2.d.ts",
+        "../../../node_modules/@types/jsforce/promise.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/record-stream.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-object.d.ts",
+        "../../../node_modules/@types/jsforce/streaming.d.ts",
+        "../../../node_modules/@types/jsforce/topic.d.ts",
+        "../../../node_modules/@types/jsforce/date.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/json-buffer/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/json5/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/keyv/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/minimist/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/mkdirp/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/normalize-package-data/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/papaparse/index.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/parse-json/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/path-exists/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/prettier/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/proxyquire/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/rimraf/index.d.ts": [
+        "../../../node_modules/@types/glob/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/remote.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/http.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/chrome.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/http.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/edge.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/firefox.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/http.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/ie.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/opera.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/safari.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/index.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/chrome.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/edge.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/firefox.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/ie.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/opera.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/safari.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/shelljs/index.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../../../node_modules/@types/glob/index.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/sinon/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/sinon-chai/index.d.ts": [
+        "../node_modules/@types/sinon/index.d.ts",
+        "../node_modules/@types/chai/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/sinonjs__fake-timers/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/stack-utils/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/uuid/interfaces.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/uuid/index.d.ts": [
+        "../../../node_modules/@types/uuid/interfaces.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/vinyl/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/webdriverio/index.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/which/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/yargs-parser/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/yargs/index.d.ts": [
+        "../../../node_modules/@types/yargs-parser/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/yeoman-assert/index.d.ts": [
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../../../node_modules/typescript/lib/lib.es5.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2016.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.dom.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.es2020.bigint.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/constants.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/index.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/constants.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/adapter/apexDebug.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/index.ts": [
+        "../node_modules/@types/vscode/index.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts"
+      ],
+      "../src/adapter/debugConfigurationProvider.ts": [
+        "../node_modules/@types/vscode/index.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/adapter/apexDebug.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/main.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/breakpoints/exceptionBreakpoint.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/breakpoints/lineBreakpoint.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/index.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/globals.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/assert.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/yeoman-assert/index.d.ts": [
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/base.d.ts": [
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/cluster.d.ts",
+        "../node_modules/@types/node/console.d.ts",
+        "../node_modules/@types/node/constants.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dgram.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/domain.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/http2.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/module.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/os.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/punycode.d.ts",
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/repl.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/string_decoder.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/trace_events.d.ts",
+        "../node_modules/@types/node/tty.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/v8.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/worker_threads.d.ts",
+        "../node_modules/@types/node/zlib.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.2/index.d.ts": [
+        "../node_modules/@types/node/base.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/ts3.2/globals.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../../../node_modules/@types/webdriverio/index.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/vinyl/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/shelljs/index.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../../../node_modules/@types/glob/index.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/rimraf/index.d.ts": [
+        "../../../node_modules/@types/glob/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/papaparse/index.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/mkdirp/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/keyv/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/index.d.ts": [
+        "../../../node_modules/@types/jsforce/api/analytics.d.ts",
+        "../../../node_modules/@types/jsforce/api/apex.d.ts",
+        "../../../node_modules/@types/jsforce/api/chatter.d.ts",
+        "../../../node_modules/@types/jsforce/api/metadata.d.ts",
+        "../../../node_modules/@types/jsforce/api/soap.d.ts",
+        "../../../node_modules/@types/jsforce/batch.d.ts",
+        "../../../node_modules/@types/jsforce/bulk.d.ts",
+        "../../../node_modules/@types/jsforce/cache.d.ts",
+        "../../../node_modules/@types/jsforce/channel.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/date-enum.d.ts",
+        "../../../node_modules/@types/jsforce/describe-result.d.ts",
+        "../../../node_modules/@types/jsforce/job.d.ts",
+        "../../../node_modules/@types/jsforce/limits-info.d.ts",
+        "../../../node_modules/@types/jsforce/oauth2.d.ts",
+        "../../../node_modules/@types/jsforce/promise.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/record-stream.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-object.d.ts",
+        "../../../node_modules/@types/jsforce/streaming.d.ts",
+        "../../../node_modules/@types/jsforce/topic.d.ts",
+        "../../../node_modules/@types/jsforce/date.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/connection.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/@types/jsforce/describe-result.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-object.d.ts",
+        "../../../node_modules/@types/jsforce/api/analytics.d.ts",
+        "../../../node_modules/@types/jsforce/api/chatter.d.ts",
+        "../../../node_modules/@types/jsforce/api/metadata.d.ts",
+        "../../../node_modules/@types/jsforce/api/soap.d.ts",
+        "../../../node_modules/@types/jsforce/api/apex.d.ts",
+        "../../../node_modules/@types/jsforce/bulk.d.ts",
+        "../../../node_modules/@types/jsforce/cache.d.ts",
+        "../../../node_modules/@types/jsforce/index.d.ts",
+        "../../../node_modules/@types/jsforce/http-api.d.ts",
+        "../../../node_modules/@types/jsforce/limits-info.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/streaming.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/channel.d.ts",
+        "../../../node_modules/@types/jsforce/topic.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/channel.d.ts": [
+        "../../../node_modules/@types/jsforce/streaming.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/topic.d.ts": [
+        "../../../node_modules/@types/jsforce/streaming.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/analytics.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/bulk.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/job.d.ts",
+        "../../../node_modules/@types/jsforce/batch.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/job.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/@types/jsforce/bulk.d.ts",
+        "../../../node_modules/@types/jsforce/batch.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/apex.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/soap.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/metadata.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/api/chatter.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/salesforce-object.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/create-options.d.ts",
+        "../../../node_modules/@types/jsforce/describe-result.d.ts",
+        "../../../node_modules/@types/jsforce/query.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../../../node_modules/@types/jsforce/batch.d.ts",
+        "../../../node_modules/@types/jsforce/quick-action.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/quick-action.d.ts": [
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/record.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/connection.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/batch.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../../../node_modules/@types/jsforce/record-stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/record-stream.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/record.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/graceful-fs/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/glob/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/@types/minimatch/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/fs-extra/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/cross-spawn/index.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/chokidar/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/cacheable-request/index.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../../../node_modules/keyv/src/index.d.ts",
+        "../../../node_modules/@types/http-cache-semantics/index.d.ts",
+        "../../../node_modules/@types/responselike/index.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/responselike/index.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/adm-zip/index.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/loggingDebugSession.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/main.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/loggingDebugSession.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/logger.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/messages.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/handles.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/protocol.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/protocol.d.ts",
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/messages.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/logger.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/async_hooks.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/buffer.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/events/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/console.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/constants.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/dns.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/events.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/cache.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/keyv/src/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/query.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/jsforce/record-result.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/v8.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/module.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/os.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/path.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/process.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/punycode.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/querystring.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/string_decoder.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/timers.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/trace_events.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/util.d.ts": [
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/yargs/index.d.ts": [
+        "../../../node_modules/@types/yargs-parser/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/yargs-parser/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/which/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/uuid/index.d.ts": [
+        "../../../node_modules/@types/uuid/interfaces.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/uuid/interfaces.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/stack-utils/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/sinonjs__fake-timers/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/sinon-chai/index.d.ts": [
+        "../node_modules/@types/sinon/index.d.ts",
+        "../node_modules/@types/chai/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/sinon/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/index.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/chrome.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/edge.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/firefox.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/ie.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/opera.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/safari.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/safari.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/opera.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/ie.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/firefox.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/http.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/edge.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/chrome.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+        "../../../node_modules/@types/selenium-webdriver/http.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/http.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/selenium-webdriver/remote.d.ts": [
+        "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/proxyquire/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/prettier/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/path-exists/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/parse-json/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/normalize-package-data/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/minimist/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/json5/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/json-buffer/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/date.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/promise.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/oauth2.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/date-enum.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/limits-info.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/http-api.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/create-options.d.ts": [
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../../../node_modules/@types/jsforce/salesforce-object-options.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/salesforce-object-options.d.ts": [
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/record-result.d.ts": [
+        "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/salesforce-id.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/jsforce/describe-result.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/istanbul-reports/index.d.ts": [
+        "../../../node_modules/@types/istanbul-lib-report/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/minimatch/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/expect/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/eslint-scope/index.d.ts": [
+        "../../../node_modules/@types/eslint/index.d.ts",
+        "../../../node_modules/@types/estree/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/eslint/index.d.ts": [
+        "../../../node_modules/@types/json-schema/index.d.ts",
+        "../../../node_modules/@types/estree/index.d.ts",
+        "../../../node_modules/@types/eslint/helpers.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/estree/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/json-schema/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/eslint/helpers.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/debounce/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/http-cache-semantics/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/babel__traverse/ts4.1/index.d.ts": [
+        "../../../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@babel/types/lib/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../../node_modules/@types/async-lock/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/mocha/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../typings/modules/faye/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/sinon/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../test/vscode-integration/adapter/MockApexExtension.ts": [
+        "../node_modules/@types/vscode/index.d.ts"
+      ],
+      "../node_modules/@types/chai/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/telemetry/index.ts": [
+        "../src/telemetry/telemetry.ts"
+      ],
+      "../src/telemetry/telemetry.ts": [
+        "../node_modules/vscode-extension-telemetry/lib/telemetryReporter.d.ts"
+      ],
+      "../node_modules/vscode-extension-telemetry/lib/telemetryReporter.d.ts": [
+        "../node_modules/@types/vscode/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/context/index.ts": [
+        "../src/context/isvContext.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/context/index.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/context/isvContextUtil.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/context/isvContextUtil.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/messages/index.ts": [
+        "../../salesforcedx-utils-vscode/out/src/i18n/index.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/i18n/index.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/i18n/localization.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/i18n/localization.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/vscode/index.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/index.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/core/breakpointService.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/sessionService.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/streamingClient.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/streamingService.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/streamingService.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/core/streamingClient.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/streamingClient.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/sessionService.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/core/breakpointService.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/breakpoints/exceptionBreakpoint.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/breakpoints/lineBreakpoint.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/index.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/frameCommand.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/referencesCommand.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/runCommand.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/stepCommands.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/stateCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/stateCommand.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/stepCommands.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/runCommand.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/referencesCommand.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/frameCommand.d.ts": [
+        "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+        "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/breakpoints/lineBreakpoint.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/out/src/breakpoints/exceptionBreakpoint.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/handles.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/messages.d.ts": [
+        "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts": [
+        "../../salesforcedx-utils-vscode/out/src/requestService/baseCommand.d.ts",
+        "../../salesforcedx-utils-vscode/out/src/requestService/requestService.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/requestService/requestService.d.ts": [
+        "../../salesforcedx-utils-vscode/node_modules/request-light/lib/main.d.ts",
+        "../../salesforcedx-utils-vscode/out/src/requestService/baseCommand.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/node_modules/request-light/lib/main.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../salesforcedx-utils-vscode/out/src/requestService/baseCommand.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.2/globals.d.ts": [
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.2/util.d.ts": [
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/node/vm.d.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../salesforcedx-apex-debugger/out/src/constants.d.ts",
+      "../node_modules/@types/node/globals.d.ts",
+      "../node_modules/@types/node/assert.d.ts",
+      "../node_modules/@types/node/async_hooks.d.ts",
+      "../node_modules/@types/node/buffer.d.ts",
+      "../../../node_modules/@types/events/index.d.ts",
+      "../node_modules/@types/node/child_process.d.ts",
+      "../node_modules/@types/node/cluster.d.ts",
+      "../node_modules/@types/node/console.d.ts",
+      "../node_modules/@types/node/constants.d.ts",
+      "../node_modules/@types/node/crypto.d.ts",
+      "../node_modules/@types/node/dgram.d.ts",
+      "../node_modules/@types/node/dns.d.ts",
+      "../node_modules/@types/node/domain.d.ts",
+      "../node_modules/@types/node/events.d.ts",
+      "../node_modules/@types/node/fs.d.ts",
+      "../node_modules/@types/node/http.d.ts",
+      "../node_modules/@types/node/http2.d.ts",
+      "../node_modules/@types/node/https.d.ts",
+      "../node_modules/@types/node/inspector.d.ts",
+      "../node_modules/@types/node/module.d.ts",
+      "../node_modules/@types/node/net.d.ts",
+      "../node_modules/@types/node/os.d.ts",
+      "../node_modules/@types/node/path.d.ts",
+      "../node_modules/@types/node/perf_hooks.d.ts",
+      "../node_modules/@types/node/process.d.ts",
+      "../node_modules/@types/node/punycode.d.ts",
+      "../node_modules/@types/node/querystring.d.ts",
+      "../node_modules/@types/node/readline.d.ts",
+      "../node_modules/@types/node/repl.d.ts",
+      "../node_modules/@types/node/stream.d.ts",
+      "../node_modules/@types/node/string_decoder.d.ts",
+      "../node_modules/@types/node/timers.d.ts",
+      "../node_modules/@types/node/tls.d.ts",
+      "../node_modules/@types/node/trace_events.d.ts",
+      "../node_modules/@types/node/tty.d.ts",
+      "../node_modules/@types/node/url.d.ts",
+      "../node_modules/@types/node/util.d.ts",
+      "../node_modules/@types/node/v8.d.ts",
+      "../node_modules/@types/node/vm.d.ts",
+      "../node_modules/@types/node/worker_threads.d.ts",
+      "../node_modules/@types/node/zlib.d.ts",
+      "../node_modules/@types/node/base.d.ts",
+      "../node_modules/@types/node/ts3.2/util.d.ts",
+      "../node_modules/@types/node/ts3.2/globals.d.ts",
+      "../node_modules/@types/node/ts3.2/index.d.ts",
+      "../../salesforcedx-utils-vscode/out/src/requestService/baseCommand.d.ts",
+      "../../salesforcedx-utils-vscode/node_modules/request-light/lib/main.d.ts",
+      "../../salesforcedx-utils-vscode/out/src/requestService/requestService.d.ts",
+      "../../salesforcedx-utils-vscode/out/src/requestService/index.d.ts",
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/protocol.d.ts",
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/messages.d.ts",
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/debugSession.d.ts",
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/loggingDebugSession.d.ts",
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/logger.d.ts",
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/handles.d.ts",
+      "../../salesforcedx-apex-debugger/node_modules/vscode-debugadapter/lib/main.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/breakpoints/exceptionBreakpoint.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/breakpoints/lineBreakpoint.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/commands/protocol.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/commands/baseDebuggerCommand.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/commands/frameCommand.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/commands/referencesCommand.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/commands/runCommand.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/commands/stepCommands.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/commands/stateCommand.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/commands/index.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/core/breakpointService.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/core/sessionService.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/core/streamingClient.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/core/streamingService.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/core/index.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/adapter/apexDebug.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/index.d.ts",
+      "../node_modules/@types/vscode/index.d.ts",
+      "../node_modules/vscode-debugprotocol/lib/debugProtocol.d.ts",
+      "../../salesforcedx-utils-vscode/out/src/i18n/localization.d.ts",
+      "../../salesforcedx-utils-vscode/out/src/i18n/index.d.ts",
+      "../src/messages/index.ts",
+      "../src/adapter/debugConfigurationProvider.ts",
+      "../../salesforcedx-apex-debugger/out/src/context/isvContextUtil.d.ts",
+      "../../salesforcedx-apex-debugger/out/src/context/index.d.ts",
+      "../src/context/isvContext.ts",
+      "../src/context/index.ts",
+      "../node_modules/vscode-extension-telemetry/lib/telemetryReporter.d.ts",
+      "../src/telemetry/telemetry.ts",
+      "../src/telemetry/index.ts",
+      "../src/index.ts",
+      "../src/messages/i18n.ja.ts",
+      "../src/messages/i18n.ts",
+      "../node_modules/@types/chai/index.d.ts",
+      "../test/vscode-integration/index.test.ts",
+      "../test/vscode-integration/index.ts",
+      "../test/vscode-integration/adapter/MockApexExtension.ts",
+      "../node_modules/@types/sinon/index.d.ts",
+      "../test/vscode-integration/adapter/debugConfigurationProvider.test.ts",
+      "../test/vscode-integration/telemetry/telemetry.test.ts",
+      "../typings/modules/faye/index.d.ts",
+      "../node_modules/@types/mocha/index.d.ts",
+      "../../../node_modules/@types/adm-zip/index.d.ts",
+      "../../../node_modules/@types/async-lock/index.d.ts",
+      "../../../node_modules/@babel/types/lib/index.d.ts",
+      "../../../node_modules/@types/babel__traverse/ts4.1/index.d.ts",
+      "../../../node_modules/keyv/src/index.d.ts",
+      "../../../node_modules/@types/http-cache-semantics/index.d.ts",
+      "../../../node_modules/@types/responselike/index.d.ts",
+      "../../../node_modules/@types/cacheable-request/index.d.ts",
+      "../../../node_modules/@types/chokidar/index.d.ts",
+      "../../../node_modules/@types/cross-spawn/index.d.ts",
+      "../../../node_modules/@types/debounce/index.d.ts",
+      "../../../node_modules/@types/eslint/helpers.d.ts",
+      "../../../node_modules/@types/json-schema/index.d.ts",
+      "../../../node_modules/@types/estree/index.d.ts",
+      "../../../node_modules/@types/eslint/index.d.ts",
+      "../../../node_modules/@types/eslint-scope/index.d.ts",
+      "../../../node_modules/@types/expect/index.d.ts",
+      "../../../node_modules/@types/fs-extra/index.d.ts",
+      "../../../node_modules/@types/minimatch/index.d.ts",
+      "../../../node_modules/@types/glob/index.d.ts",
+      "../../../node_modules/@types/graceful-fs/index.d.ts",
+      "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "../../../node_modules/@types/istanbul-lib-report/index.d.ts",
+      "../../../node_modules/@types/istanbul-reports/index.d.ts",
+      "../../../node_modules/@types/jsforce/describe-result.d.ts",
+      "../../../node_modules/@types/jsforce/salesforce-id.d.ts",
+      "../../../node_modules/@types/jsforce/record-result.d.ts",
+      "../../../node_modules/@types/jsforce/query.d.ts",
+      "../../../node_modules/@types/jsforce/record.d.ts",
+      "../../../node_modules/@types/jsforce/salesforce-object-options.d.ts",
+      "../../../node_modules/@types/jsforce/create-options.d.ts",
+      "../../../node_modules/@types/jsforce/record-stream.d.ts",
+      "../../../node_modules/@types/jsforce/batch.d.ts",
+      "../../../node_modules/@types/jsforce/quick-action.d.ts",
+      "../../../node_modules/@types/jsforce/salesforce-object.d.ts",
+      "../../../node_modules/@types/jsforce/api/chatter.d.ts",
+      "../../../node_modules/@types/jsforce/api/metadata.d.ts",
+      "../../../node_modules/@types/jsforce/api/soap.d.ts",
+      "../../../node_modules/@types/jsforce/api/apex.d.ts",
+      "../../../node_modules/@types/jsforce/job.d.ts",
+      "../../../node_modules/@types/jsforce/bulk.d.ts",
+      "../../../node_modules/@types/jsforce/cache.d.ts",
+      "../../../node_modules/@types/jsforce/http-api.d.ts",
+      "../../../node_modules/@types/jsforce/limits-info.d.ts",
+      "../../../node_modules/@types/jsforce/connection.d.ts",
+      "../../../node_modules/@types/jsforce/api/analytics.d.ts",
+      "../../../node_modules/@types/jsforce/topic.d.ts",
+      "../../../node_modules/@types/jsforce/streaming.d.ts",
+      "../../../node_modules/@types/jsforce/channel.d.ts",
+      "../../../node_modules/@types/jsforce/date-enum.d.ts",
+      "../../../node_modules/@types/jsforce/oauth2.d.ts",
+      "../../../node_modules/@types/jsforce/promise.d.ts",
+      "../../../node_modules/@types/jsforce/date.d.ts",
+      "../../../node_modules/@types/jsforce/index.d.ts",
+      "../../../node_modules/@types/json-buffer/index.d.ts",
+      "../../../node_modules/@types/json5/index.d.ts",
+      "../../../node_modules/@types/keyv/index.d.ts",
+      "../../../node_modules/@types/minimist/index.d.ts",
+      "../../../node_modules/@types/mkdirp/index.d.ts",
+      "../../../node_modules/@types/normalize-package-data/index.d.ts",
+      "../../../node_modules/@types/papaparse/index.d.ts",
+      "../../../node_modules/@types/parse-json/index.d.ts",
+      "../../../node_modules/@types/path-exists/index.d.ts",
+      "../../../node_modules/@types/prettier/index.d.ts",
+      "../../../node_modules/@types/proxyquire/index.d.ts",
+      "../../../node_modules/@types/rimraf/index.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/remote.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/http.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/chrome.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/edge.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/firefox.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/ie.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/opera.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/safari.d.ts",
+      "../../../node_modules/@types/selenium-webdriver/index.d.ts",
+      "../../../node_modules/@types/shelljs/index.d.ts",
+      "../../../node_modules/@types/sinon/index.d.ts",
+      "../../../node_modules/@types/sinon-chai/index.d.ts",
+      "../../../node_modules/@types/sinonjs__fake-timers/index.d.ts",
+      "../../../node_modules/@types/stack-utils/index.d.ts",
+      "../../../node_modules/@types/uuid/interfaces.d.ts",
+      "../../../node_modules/@types/uuid/index.d.ts",
+      "../../../node_modules/@types/vinyl/index.d.ts",
+      "../../../node_modules/@types/webdriverio/index.d.ts",
+      "../../../node_modules/@types/which/index.d.ts",
+      "../../../node_modules/@types/yargs-parser/index.d.ts",
+      "../../../node_modules/@types/yargs/index.d.ts",
+      "../../../node_modules/@types/yeoman-assert/index.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../../../node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../node_modules/typescript/lib/lib.es5.d.ts"
+    ]
+  },
+  "version": "3.8.3"
+}

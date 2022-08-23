@@ -1,0 +1,13 @@
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":15048,"level":60,"errno":-4058,"code":"ENOENT","syscall":"rename","path":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.0","dest":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.1","msg":"","time":"2022-08-23T04:57:40.893Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":15048,"level":60,"errno":-4058,"code":"ENOENT","syscall":"rename","path":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.0","dest":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.1","msg":"","time":"2022-08-23T04:57:40.894Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":15048,"level":60,"errno":-4058,"code":"ENOENT","syscall":"rename","path":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log","dest":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.0","msg":"","time":"2022-08-23T04:57:41.147Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":15048,"level":60,"code":"ERR_INVALID_ARG_TYPE","msg":"","time":"2022-08-23T04:57:34.756Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":15048,"level":60,"errno":-4058,"code":"ENOENT","syscall":"rename","path":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.0","dest":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.1","msg":"","time":"2022-08-23T04:57:40.892Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":15048,"level":60,"errno":-4058,"code":"ENOENT","syscall":"rename","path":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.0","dest":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.1","msg":"","time":"2022-08-23T04:57:40.893Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":15048,"level":60,"errno":-4058,"code":"ENOENT","syscall":"rename","path":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log","dest":"C:\\Users\\CONCLO4\\.sfdx\\sfdx.log.0","msg":"","time":"2022-08-23T04:57:41.146Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":17576,"level":60,"code":"ERR_INVALID_ARG_TYPE","msg":"","time":"2022-08-23T05:31:41.955Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":17576,"level":60,"code":"ERR_INVALID_ARG_TYPE","msg":"","time":"2022-08-23T05:31:41.956Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":17576,"level":60,"code":"ERR_INVALID_ARG_TYPE","msg":"","time":"2022-08-23T05:31:41.957Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":17576,"level":60,"code":"ERR_INVALID_ARG_TYPE","msg":"","time":"2022-08-23T05:31:41.961Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":17576,"level":60,"code":"ERR_INVALID_ARG_TYPE","msg":"","time":"2022-08-23T05:31:41.963Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-PG1OULFL","pid":17576,"level":60,"code":"ERR_INVALID_ARG_TYPE","msg":"","time":"2022-08-23T05:31:41.964Z","v":0}

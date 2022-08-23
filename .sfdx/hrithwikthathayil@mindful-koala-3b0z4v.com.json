@@ -1,0 +1,12 @@
+{
+  "username": "hrithwikthathayil@mindful-koala-3b0z4v.com",
+  "accessToken": "0840e92ce2645c2aeffe17bc00d5fa696b0e6e099a1f7ccd144baae189cbcfe516efd752f4b96f1edcb5c86ef5b085b71ec3bef91fec277c4449c82553fe9f72c8761cae3f57177adc9f7bcfcfc61eaa8eee7f067cd950bc07079449ff5b14331bf84315d6c55af1eefa4e1245d0f7ba3c59db95ded2:ee6c1f527f7ae2ef38eca49e9544435c",
+  "instanceUrl": "https://mindful-koala-3b0z4v-dev-ed.my.salesforce.com",
+  "orgId": "00D5g000005IbvpEAC",
+  "loginUrl": "https://login.salesforce.com/",
+  "refreshToken": "2e6f1abd2152cb785c01212c258b3754f19189bb8b1b5004ff578550936b2cac22408c958cc44e622e5382ba22d432f4f18b40c23d9ace9e9eb75901c2de33661e74a14723cbb7cef57041155b057f6d34e596376c456686e966be0a27:0491cfe02a127f8cdbc42d3b95779a56",
+  "clientId": "PlatformCLI",
+  "isDevHub": true,
+  "instanceApiVersion": "55.0",
+  "instanceApiVersionLastRetrieved": "23/8/2022, 11:08:25 am"
+}
